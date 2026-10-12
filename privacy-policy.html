@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — Pancitos de Vida</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+    line-height: 1.6;
+    color: #1b2b22;
+    background: #f4efe6;
+  }
+  h1 { color: #1b2b22; }
+  h2 { color: #2e7d4f; margin-top: 2em; }
+  a { color: #2e7d4f; }
+  .updated { color: #666; font-size: 0.9em; margin-bottom: 2em; }
+  ul { padding-left: 1.3em; }
+  li { margin-bottom: 0.5em; }
+</style>
+</head>
+<body>
+
+<h1>Política de privacidad de Pancitos de Vida</h1>
+<p class="updated">Última actualización: octubre de 2026</p>
+
+<p>
+  Pancitos de Vida ("la app", "nosotros") es una aplicación para Android desarrollada
+  por Cristofer San Martin (Chile), responsable del tratamiento de tus datos. Esta página
+  explica qué información recolectamos, para qué la usamos, con quién la compartimos y
+  qué control tienes sobre ella.
+</p>
+
+<h2>Qué información recolectamos</h2>
+<ul>
+  <li><strong>Datos de tu cuenta:</strong> correo electrónico y contraseña (la contraseña
+    se guarda cifrada; nunca la vemos) o, si usas "Continuar con Google", el correo, el
+    nombre y la foto de tu cuenta de Google. Además te pedimos tu nombre, tu
+    <strong>fecha de nacimiento</strong> y si prefieres que te llamemos "Hermano" o
+    "Hermana". Los usamos para personalizar el tono de los mensajes, usar el trato
+    correcto y saludarte el día de tu cumpleaños.</li>
+  <li><strong>Foto de perfil:</strong> opcional. Si subes una, se guarda en nuestro
+    almacenamiento (Supabase Storage) y se muestra mediante un enlace directo; el enlace
+    no aparece en ningún listado público, pero quien lo conozca puede abrir la imagen. Si
+    no subes ninguna, se usa la foto de tu cuenta de Google (si entraste con Google).</li>
+  <li><strong>Fotos que escaneas:</strong> cuando escaneas un "pancito de vida" (un
+    versículo impreso o escrito), la imagen se envía a la API de Gemini de Google para
+    identificar el versículo y generar su explicación. <strong>No guardamos la foto</strong>;
+    guardamos el versículo identificado en tu historial.</li>
+  <li><strong>Mensajes del chat (texto y voz):</strong> lo que le escribes o le dices al
+    "Amigo Fiel" se envía a la API de Gemini de Google para generar la respuesta. Las
+    grabaciones de voz se procesan y <strong>no se almacenan</strong>. De tus
+    conversaciones guardamos: (a) un resumen breve de temas relevantes, para que el Amigo
+    Fiel te recuerde sin que repitas todo; (b) eventos futuros que menciones (por ejemplo,
+    "tengo un examen el viernes"), para preguntarte cómo te fue; y (c) un registro de
+    cuántos mensajes enviaste cada día, sin su contenido, para aplicar el límite del plan
+    gratuito. El texto completo de la conversación se mantiene en tu dispositivo mientras
+    usas el chat.</li>
+  <li><strong>Voz del Amigo Fiel:</strong> cuando escuchas un mensaje en voz alta, su texto
+    se envía a Google Cloud Text-to-Speech para generar el audio.</li>
+  <li><strong>Historial de actividad:</strong> versículos escaneados, resultados de la
+    Ruleta de Promesas, lecciones leídas, tu racha de días y tus estadísticas.</li>
+  <li><strong>Suscripción Premium:</strong> si te suscribes, guardamos el identificador de
+    la compra de Google Play, el estado y la fecha de vencimiento de tu suscripción. Google
+    procesa el pago; nosotros no vemos ni almacenamos los datos de tu tarjeta.</li>
+  <li><strong>Opiniones:</strong> si nos dejas una calificación o comentario desde Mi
+    Perfil, lo guardamos junto a tu cuenta.</li>
+  <li><strong>Datos técnicos mínimos:</strong> tu zona horaria (para saber cuándo empieza
+    tu día), la voz masculina o femenina que elegiste en Mi Perfil y si tienes las
+    notificaciones activadas (para que el Amigo Fiel pueda invitarte a activarlas). No
+    recolectamos tu ubicación ni identificadores publicitarios.</li>
+  <li><strong>En tu dispositivo:</strong> guardamos una copia de los versículos y
+    explicaciones que ya viste, para que la Ruleta y tu historial funcionen sin conexión,
+    y tus preferencias de notificación.</li>
+</ul>
+
+<h2>Permisos que solicita la app</h2>
+<ul>
+  <li><strong>Cámara:</strong> solo para escanear tus pancitos de vida.</li>
+  <li><strong>Micrófono:</strong> solo cuando grabas un mensaje de voz para el Amigo Fiel.</li>
+  <li><strong>Notificaciones:</strong> para los mensajes diarios del Amigo Fiel (mañana,
+    mediodía y noche) y el saludo de cumpleaños. Puedes apagarlas en Mi Perfil.</li>
+</ul>
+
+<h2>Contenido generado por inteligencia artificial</h2>
+<p>El "Amigo Fiel" es un asistente de inteligencia artificial, no una persona, un pastor ni
+  un profesional de la salud. Sus respuestas pueden contener errores y no reemplazan el
+  consejo pastoral, médico, psicológico ni legal.</p>
+
+<h2>Con quién compartimos información</h2>
+<p>No vendemos tu información ni la usamos para publicidad. Usamos estos proveedores, que
+  la procesan únicamente para que la app funcione:</p>
+<ul>
+  <li><strong>Supabase</strong> (autenticación, base de datos y almacenamiento de fotos) —
+    <a href="https://supabase.com/privacy" target="_blank" rel="noopener">política de
+    privacidad de Supabase</a>.</li>
+  <li><strong>Google</strong>: API de Gemini (identificar versículos y responder en el
+    chat), Cloud Text-to-Speech (voz), Google Sign-In (inicio de sesión), Google Cloud Run
+    (donde corre nuestro servidor, en São Paulo, Brasil) y Google Play Billing (pagos) —
+    <a href="https://policies.google.com/privacy" target="_blank"
+    rel="noopener">política de privacidad de Google</a>. Usamos la API de Gemini en su
+    modalidad de pago, cuyas condiciones indican que Google no usa el contenido enviado
+    para entrenar sus modelos.</li>
+</ul>
+<p>Estos proveedores pueden procesar datos en servidores fuera de Chile. También podemos
+  divulgar información si una ley o una autoridad competente lo exige.</p>
+
+<h2>Cuánto tiempo conservamos tus datos</h2>
+<p>Conservamos tus datos mientras tengas una cuenta. Al eliminar tu cuenta se borran de
+  forma permanente tu usuario, tu foto de perfil, tu historial, el resumen de tus
+  conversaciones, tus eventos recordados, tus opiniones y los datos de tu suscripción
+  almacenados por nosotros.</p>
+
+<h2 id="eliminar-cuenta">Tus derechos y cómo eliminar tu cuenta</h2>
+<ul>
+  <li><strong>Eliminar tu cuenta y tus datos:</strong> abre la app → <em>Mi Perfil</em> →
+    <em>Eliminar cuenta</em>. Es inmediato y permanente. Si ya no puedes entrar a la app,
+    escríbenos desde el correo de tu cuenta a la dirección de contacto con el asunto
+    "Eliminar mi cuenta" y la borraremos.</li>
+  <li><strong>Borrar lo que el Amigo Fiel recuerda de ti:</strong> en <em>Ajustes</em> puedes
+    borrar el historial de personalización.</li>
+  <li><strong>Ver y corregir tus datos:</strong> puedes editar tu nombre y tu foto en
+    <em>Mi Perfil</em>. Para otros datos o para pedir una copia de tu información,
+    escríbenos.</li>
+  <li><strong>Notificaciones:</strong> puedes desactivarlas en Mi Perfil o en los ajustes de
+    tu teléfono.</li>
+</ul>
+
+<h2>Seguridad</h2>
+<p>Toda la comunicación entre la app y nuestros servidores viaja cifrada (HTTPS). Las
+  claves de acceso a nuestros servicios se guardan en el servidor y nunca se incluyen en la
+  app que instalas. Ningún sistema es infalible, pero aplicamos medidas razonables para
+  proteger tu información.</p>
+
+<h2>Menores de edad</h2>
+<p>Pancitos de Vida no está dirigida a menores de 13 años y no recolectamos
+  conscientemente sus datos. Si tienes entre 13 y 17 años, te recomendamos usar la app con
+  el acompañamiento de un padre, madre o tutor. Si crees que un menor de 13 años creó una
+  cuenta, escríbenos y la eliminaremos.</p>
+
+<h2>Cambios a esta política</h2>
+<p>Si actualizamos esta política, publicaremos la nueva versión en esta misma página con la
+  fecha de actualización. Si el cambio es importante, te avisaremos dentro de la app.</p>
+
+<h2>Contacto</h2>
+<p>¿Preguntas sobre tu privacidad o tus datos? Escríbenos a
+  <a href="mailto:cri.sanmartin96@gmail.com">cri.sanmartin96@gmail.com</a>.</p>
+
+</body>
+</html>
